@@ -1,0 +1,32 @@
+.{margin:0;padding:0;}
+body{font-family:Arial;font-size:14px;line-height:22px;color:69949B;background:EFE9C5}
+.h1{}
+.fix{overflow:hidden}
+.main{width:960px}
+.header{width:960px;margin-left: 260px;
+color: 36D24B;}
+.content{}
+.left{width:180px;margin-right:20px;float:left;margin-top:20px;}
+.left ul{list-style:none;margin: 0px;
+padding: 0px;
+background: #F9FCC5;}
+.left ul li{padding:5px;display:block;border-bottom:1px solid #ddd;font-size: 25px;
+color: FEC393;}
+.left ul li a{text-decoration:none;}
+.left ul li:hover{background:EFE9C5}
+.left ul li a:hover{color:FF00FF}
+.middle{width:540px;margin-right:20px;float:left;margin-top:20px;}
+.up{background:url(images/upNature.jpg) no-repeat}
+.personalphoto{margin-left: 0px;
+width: 540px;
+height: 405px;}
+.right{width:200px;margin-top:20px;}
+.heading{width:200px;float:left;height: 60px;
+margin-bottom: 2px;
+padding: 5px;background-color: FFA07A;
+color: blanchedalmond;}
+.news{width:200px;margin-top: 50px;
+background-color: FDF8F5;}
+.footer{height: 36px;
+color: bisque;
+background-color: lightsalmon;}

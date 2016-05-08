@@ -1,0 +1,173 @@
+body
+{    padding: 0px;
+	margin: 0px;
+	background: url("../img/71.jpg")no-repeat center center fixed;
+	 -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	/*background-repeat: no-repeat;*/
+	/*background-image: url("../img/30.jpg");*/
+
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+.box {
+	float: left;
+}
+
+header:after, .box:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+header {
+	width: 100%;
+	height: 280px;
+	background: #222222 url("../img/header-bg.jpg");
+}
+
+header .photo {
+	width: 30%;
+}
+
+header .titles {
+	width: 70%;
+}
+
+header .titles {
+	text-align: right;
+	text-shadow: 1px 1px 1px rgba(125, 125, 125, 0.5);
+}
+
+header img {
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;-moz-border-radius: 100px;
+}
+
+header h1 {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 3.5em;
+	color: #DDD;
+	margin: 30px 0;
+}
+
+header h3 {
+	font-family: "Lucida Console", Monaco, monospace;
+	line-height: 1.4em;
+	font-size: 1.1em;
+	color: #BBB;
+}
+
+
+
+.menubar{background: #945153;overflow: hidden;}
+.menubar ul {margin: 0;padding: 0;list-style: none;}
+.menubar ul li{float: left; border-right: 3px solid black;}
+.menubar ul li a{text-decoration: none; padding: 10px 25px; display: block;color:yellow;}
+.menubar ul li a:hover{background:#B2B2B2}
+.content{width:960px;height:250px;background:white}
+
+.profile .bio {
+
+	width: 40%;
+
+}
+
+.profile .biopara {
+
+	padding: 10px 0;
+	margin-left:5px;
+	margin-top:30px;
+	background-color: #DDD;
+	border-radius: 10px;
+	line-height: 1.5em;
+  
+}
+
+.profile .social {
+
+	padding-top: 20px;
+	text-align: center;
+}
+
+.social a {
+
+	padding: 5px;
+}
+
+.profile .bio p {
+
+	padding: 10px 25px 0;
+	text-align: justify;
+
+}
+
+.profile .bio h2 {
+	padding: 10px 25px 0;
+}
+
+.profile .details {
+	width: 65%;
+
+}
+
+.details table {
+	/*padding: 0;
+	margin: 0 25px;
+	background:black; 
+	 background:#000000 ;
+  border:1px solid black;
+*/
+  /*padding-top: 35px;
+  border-top:5px;
+  width: 800px;
+  height: 600px;
+  margin:0px 50px;
+  color:#000000;
+  padding:50px;
+  background-color:#000000 ;
+  border:1px solid black;*/
+
+
+width:450px;height:520px;
+
+
+margin-top:25px;
+margin-left:70px;
+margin-bottom:20px;
+padding:15px;
+font-size:17px;
+background-color:rgba(0,0,0,.4);
+width:1090px;
+height:45px;
+/*border: 2px solid #A1A1A1;*/
+border-radius: 28px;
+  
+
+
+
+
+  /*opacity:0.6;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+  float: center;
+}
+
+.details table tr {
+
+}
+
+.profile .details table td {
+	
+
+	padding: 5px 20px;
+	line-height: 1.4em;
